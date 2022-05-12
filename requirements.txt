@@ -1,0 +1,17 @@
+bs4 
+lifxlan 
+pytz
+datetime
+num2words 
+torch
+suntime 
+playsound
+requests
+vosk
+pyaudio
+azure-cognitiveservices-speech
+google-api-python-client 
+google-auth-httplib2 
+google-auth-oauthlib
+lxml
+pyttsx3
