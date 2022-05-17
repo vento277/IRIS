@@ -30,16 +30,19 @@ def functions(text):
     if (h.l.light_level(text) != 0):
         br.li_brghtns(text)
 
-    #Setting up workstations for projects (automate work stations)
-
+    # Work-Station
+    if (h.l.proj(text) == True):
+        br.workflow()
 
 
 def body():
     h.os.system("cls")
     print("running...")
+
     while True:
         user = h.stt.stt()
 
+        # activate iris
         if (h.l.wake_word(user) == True):
             br.oth.wake()
 
@@ -47,10 +50,13 @@ def body():
                 user2 = h.stt.stt()
                 functions(user2)
 
+                # deactivate iris
+                if (h.l.sleep(user2) == True):
+                    user = ""
+                    br.oth.sleep()
+                    break
+
         else:
             h.os.system("cls")
             pass
-    
-
        
-      

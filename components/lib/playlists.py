@@ -1,4 +1,4 @@
-# Custom lib of youtube music playlists.
+# Library of youtube music playlists.
 
 morning_list = [  "https://www.youtube.com/watch?v=wuLKvcn-c7A&ab_channel=OCBRelaxMusic",
                 "https://www.youtube.com/watch?v=iqmO1RlqorU&ab_channel=OCBRelaxMusic",

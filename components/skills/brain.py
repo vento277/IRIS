@@ -14,6 +14,7 @@ import news as nw
 import ordinal as ord
 import lights as li
 import weather as wth
+import w_station as wst
 
 
 #------------------------------------------------------Greetings
@@ -114,6 +115,36 @@ def b_news():
             pass
 
 #------------------------------------------------------Project Creation
+# Make folder in external hard-drive named 'Data', 
+# ask for the name of the folder untill the name is confirmed by the user
+def folder():
+    sp = h.s.ask_fld_name
+    h.ts.tts(h.rd.choice(sp))
+
+    user = h.stt.stt()
+
+    while True:
+        h.ts.tts(user)
+        h.ts.tts("Please confirm")
+        user2 = h.stt.stt()
+        if (h.l.yes(user2) == True):
+            h.ts.tts("Project name confirmed")
+            path = wst.user_path(user)
+            h.os.mkdir(path)
+            oth.done()
+            break
+        else:
+            h.ts.tts("Project name unconfirmed..." + " Please re-state the project name")
+            user = h.stt.stt()
+
+# Open VSCode, followed by creating a folder in the pre-set project dir 
+def workflow():
+    #sp = h.s.ask_proj
+    #h.ts.tts(h.rd.choice(sp))
+    
+    # Start VSCode
+    h.os.startfile(h.ap.vscode)
+    folder()
 
 #------------------------------------------------------Lights
 # Configure light
@@ -245,3 +276,5 @@ def li_check():
         li_brghtns(user)
     else:
         pass
+
+

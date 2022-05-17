@@ -7,7 +7,6 @@ import brain as br
 
 def start():
     h.os.system("cls")
-    br.li_config()
     print("activted")
     
     user = h.stt.stt()
@@ -24,11 +23,12 @@ def start():
             )
             h.ts.tts("Today is " + br.ord.mth() + " " + br.ord.day()
             + " " + br.ord.yr() + " ...and the weather is... " + wth[2][0] +
-            ", the temperature is estimated to be between " + str(int(wth[3][0]))
+            ", ...the temperature is estimated to be between " + str(int(wth[3][0]))
             + " and " + str(int(wth[4][0])) + " degree celcius."
             )
 
             # Light
+            br.li_config()
             br.li_time()
             br.li_check()
 

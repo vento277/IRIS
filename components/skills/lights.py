@@ -37,8 +37,15 @@ def status():
     num_lights = None
     lifx = h.LifxLAN(num_lights)
     devices = lifx.get_lights()
-    bulb_1 = devices[0]
-    bulb_2 = devices[1]
+    while True:
+        try:
+            bulb_1 = devices[0]
+            bulb_2 = devices[1]
+            break
+
+        except IndexError:
+            print("Having trouble finding your bulbs, please wait...", end="\r")
+            h.time.sleep(1)
 
     status1 = bulb_1.get_power()
     status2 = bulb_2.get_power()

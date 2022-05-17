@@ -1,8 +1,8 @@
-# Lib of possible user inputs
+# Library of possible user inputs
 
 def yes(text):
     a = ['yes', 'sure', 'sure thing', 'ok', 'okay', 'roger that', 'yes please',
-         'good', 'perfect', 'fact', 'yeah', 'yup', 'yas', 'uh huh']  # can add as many as you want
+         'good', 'perfect', 'fact', 'yeah', 'yup', 'yas', 'uh huh', 'it is', "it's"]  # can add as many as you want
 
     text = text.lower()  # convert to all lower case
 
@@ -35,6 +35,16 @@ def thank(text):
 
     return False
 
+def sleep(text):
+    a = ['that is all', "that's all", 'that will be all', "that'll be all", 'sleep', 'all good now'
+        'good for now']
+
+    for phrase in a:
+        if phrase in text:
+            return True
+
+    return False
+
 def good(text):
     a = ['good to go', 'good', 'it looks good', 'its fine', 'great', 'looks great', 'it is']
     
@@ -56,8 +66,22 @@ def open(text):
 
     return False 
 
+def proj(text):
+    a = ['set up workstation', 'start a new project', 'new project'
+        'create project']  # can add as many as you want
+
+    text = text.lower()  # convert to all lower case
+
+    # Check is the users command include a wake phrase
+    for phrase in a:
+        if phrase in text:
+            return True
+
+    return False 
+
 def wake_word(text):
-    WAKE_WORDS = ['iris', 'harris', 'virus', 'hey', 'irish', 'you there?', 'youre there']  # can add as many as you want
+    WAKE_WORDS = ['iris', 'harris', 'virus', 'hey', 'irish', 'you there?', 'youre there'
+                'paris']  # can add as many as you want
 
     text = text.lower()  # convert to all lower case
 
@@ -125,22 +149,24 @@ def music_artist(text):
     return False
 
 def light_switch(text):
-    on = ['lights on', 'im home', 'lights', 'hey buddy', 'on', 'turn on']
-    off = ['lights off', 'im going out', 'lights out', 'off', 'turn off']
+    on = ['on', 'im home', 'hey buddy', 'on']
+    off = ['off', 'im going out', 'out', 'off']
 
     text = text.lower()
 
-    # 1 for ON
-    for phrase in on:
-        if phrase in text:
-            return 1
-    
-    # 2 for OFF
-    for phrase in off:
-        if phrase in text:
-            return 2
+    if ('lights' in text):
 
-    return False
+        # 1 for ON
+        for phrase in on:
+            if phrase in text:
+                return 1
+
+        # 2 for OFF
+        for phrase in off:
+            if phrase in text:
+                return 2
+
+        return False
 
 def light_level(text):
     bright = ['turn it up', 'up', 'brighter', 'higher', 'too dark', 'dark', 'it is too dark', 'cant see anything', 'cant see', 'cannot see']

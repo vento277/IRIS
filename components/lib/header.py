@@ -1,3 +1,5 @@
+# Header for iris
+
 import sys
 import json
 import webbrowser as wb
@@ -26,9 +28,10 @@ sys.path.append(r"C:\Users\Peter\Desktop\IRIS\components\tts\pyttsx3")
 import listen as l
 import speak as s
 import playlists as pl
+import app_path as ap
 
 #TTS & STT
 import vosk_stt as stt
-import azure_tts as tts
-import sapi5_tts as ts
+import azure_tts as ts
+import sapi5_tts as tts
 
