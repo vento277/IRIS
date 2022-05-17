@@ -1,6 +1,6 @@
 import azure.cognitiveservices.speech as speechsdk
 
-speech_config = speechsdk.SpeechConfig(subscription="b8866aab82084dbf87f14db82c7be277", region="eastus")
+speech_config = speechsdk.SpeechConfig(subscription="", region="eastus")
 audio_config = speechsdk.audio.AudioOutputConfig(use_default_speaker=True)
 
 # The language of the voice that speaks.
