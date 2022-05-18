@@ -1,8 +1,8 @@
-# IRIS, Gen 1
+# IRIS | Gen 1
 
-First attempt to develop my personal assistant. It consists of one python file with various packages and function calls. Google Speech Recognition and Microsoft Speech APIs are used for its STT (speech_recognition) & TTS (sapi5)
+First attempt to develop my personal assistant. It consists of one python file with various packages and function calls. Google Speech Recognition and Microsoft Speech APIs are used for its STT (speech_recognition) & TTS (sapi5).
 
-A **virtual audio cable** is used to allow multiple I/O from a local operating system
+A **virtual audio cable** is used to allow multiple I/O from a local operating system.
 
 # Functions
 
