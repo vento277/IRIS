@@ -6,7 +6,7 @@ Iris is my personal AI assistant developed using python. It is meant to automate
 
 Second attempt to develop my personal assistant. It consists of multiple python files with integrated function calls. Vosk (offline) and Microsoft Azure Speech API are used for its STT & TTS. It 
 
-A virtual audio cable is used to allow multiple I/O from a local operating system. 
+A **virtual audio cable** is used to allow multiple I/O from a local operating system. 
 
 The 1st generation (AUG 2021) can be found in the 'iris_1st_Gen' folder.
 
