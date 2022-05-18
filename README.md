@@ -4,7 +4,7 @@ Iris is my personal AI assistant developed using python. It is meant to automate
 
 ## IRIS | Gen 1
 
-The 1st generation (AUG 2021) can be found in a separate folder.
+The 1st generation can be found in a separate folder.
 
 ## IRIS | Gen 2
 
