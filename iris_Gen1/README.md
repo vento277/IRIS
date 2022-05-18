@@ -8,13 +8,14 @@ A **virtual audio cable** is used to allow multiple I/O from a local operating s
 
 Greet/Farewell according to time of the day [morning, afternoon and night]
 
-Control Lifx lightbulbs [power on/off, change color]
+Control Lifx light bulbs [power on/off, change color]
 
 Open computer applications [google chrome, webcam]
 
 Carry out windows CMD functions [schedule shutdown, clear screen]
 
 Get events on any day from Google Calendar
+
 
 # Block Diagrams
  ![IRIS (Personal Project)](https://user-images.githubusercontent.com/63937643/168951282-16bae320-a967-4152-97ed-e52e81e49b8b.jpg)
