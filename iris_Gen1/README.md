@@ -1,8 +1,22 @@
-# Personal AI assistant, IRIS
+# IRIS, Gen 1
 
-Python based AI assistant.
+First attempt to develop my personal assistant. It consists of one python file with various packages and function calls. Google Speech Recognition and Microsoft Speech APIs are used for its STT (speech_recognition) & TTS (sapi5)
 
-**Virtual audio cable** can used to allow multiple inputs/outputs from a local computer. 
+# Function
+
+Greet/Farewell according to time of the day [morning, afternoon and night]
+Get events on any day from Google Calendar
+Control Lifx lightbulbs [power on/off, change color]
+Open computer applications [google chrome, webcam]
+Carry out windows CMD functions [schedule shutdown, clear screen]
+
+A **virtual audio cable** is used to allow multiple I/O from a local operating system
+
+# Block Diagram
+
+ ![IRIS (Personal Project)](https://user-images.githubusercontent.com/63937643/168951282-16bae320-a967-4152-97ed-e52e81e49b8b.jpg)
+
+![IRIS (Personal Project) (1)](https://user-images.githubusercontent.com/63937643/168951340-0144c2f2-eb76-4948-8d71-8a7a0afc197e.jpg)
 
 # Updates
 
