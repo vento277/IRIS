@@ -8,7 +8,7 @@ Second attempt to develop my personal assistant. It consists of multiple python 
 
 A **virtual audio cable** is used to allow multiple I/O from a local operating system. 
 
-The 1st generation (AUG 2021) can be found in the 'iris_1st_Gen' folder.
+The 1st generation (AUG 2021) can be found in a separate folder.
 
 ## Functions
 Greet/Farewell according to time of the day [morning, afternoon and night]
