@@ -17,7 +17,7 @@ Greet/Farewell according to time of the day [morning, afternoon and night]
 
 Control Lifx lightbulbs [power on/off, change color, sunrise/sunset sensitive]
 
-Readout top news headlines
+Read news headlines
 
 Automate the VSCode work station [make folder]
 
