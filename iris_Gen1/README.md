@@ -4,7 +4,7 @@ First attempt to develop my personal assistant. It consists of one python file w
 
 A **virtual audio cable** is used to allow multiple I/O from a local operating system
 
-# Function
+# Functions
 
 Greet/Farewell according to time of the day [morning, afternoon and night]
 
@@ -16,9 +16,10 @@ Carry out windows CMD functions [schedule shutdown, clear screen]
 
 Get events on any day from Google Calendar
 
-# Block Diagram
+# Block Diagrams
  ![IRIS (Personal Project)](https://user-images.githubusercontent.com/63937643/168951282-16bae320-a967-4152-97ed-e52e81e49b8b.jpg)
 ![IRIS (Personal Project) (1)](https://user-images.githubusercontent.com/63937643/168951340-0144c2f2-eb76-4948-8d71-8a7a0afc197e.jpg)
+
 # Updates
 
 ### 08/19/2021
