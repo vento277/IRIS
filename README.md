@@ -20,16 +20,15 @@ A **virtual audio cable** is used to allow multiple I/O from a local operating s
 - Automate the VSCode work station [make folder]
 - Open computer applications [google chrome, VSCode] 
 - Get events on any day from Google Calendar
+- ...
 
-...in progress
+### Block Diagram
 
-## Block Diagram
+#### Flow
+![IRIS (Personal Project)](https://user-images.githubusercontent.com/63937643/170426388-b90150c9-7b3f-4945-a45b-4b611d9af595.jpg)
+![IRIS (Personal Project) (1)](https://user-images.githubusercontent.com/63937643/170426385-3dc55db4-cef0-4fb8-bc4c-7015a769b7aa.jpg)
 
-**Flow**
+#### Code
+![IRIS (Personal Project) (2)](https://user-images.githubusercontent.com/63937643/170426391-a47728b4-8bfd-43af-a7ea-ce6f4d9b3bf7.jpg)
 
-![IRIS (Personal Project)](https://user-images.githubusercontent.com/63937643/170423680-3847fcb8-7b82-479b-b0d0-38812354d7ab.jpg)
-![IRIS (Personal Project) (2)](https://user-images.githubusercontent.com/63937643/170424021-f54dec25-79c8-4e5c-b65d-98606aeddde9.jpg)
-
-**Code**
-![IRIS (Personal Project) (3)](https://user-images.githubusercontent.com/63937643/170424150-ab2199b5-f307-45de-a4d4-3402cd2f9f73.jpg)
 
