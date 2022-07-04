@@ -6,6 +6,8 @@ Iris is my personal AI assistant developed using python. It is meant to automate
 
 1st generation IRIS can be found in a separate folder.
 
+https://github.com/vento277/IRIS/tree/main/iris_Gen1
+
 ## IRIS | Gen 2
 
 Second attempt to develop my personal assistant. It consists of multiple python files with integrated function calls. Vosk (offline) and Microsoft Azure Speech API are used for its STT & TTS.
