@@ -2,7 +2,7 @@ from xml.etree.ElementTree import TreeBuilder
 from vosk import Model, KaldiRecognizer
 import pyaudio
 
-model = Model(r"C:\Users\Peter\Desktop\Project\iris\brain\sens\stt\vosk-model-small-en-us-0.15")
+model = Model(r"")
 recognizer = KaldiRecognizer(model, 16000)
 
 def stt():
