@@ -3,8 +3,6 @@
 # - Compare forecasted-data from current-data and return % difference for conversation purpose
 # - Send sunrise and sunset data for lighting control
 
-#https://api.openweathermap.org/data/2.5/onecall?lat=48&lon=-123&appid=42b362bd537f39b118691891848a093e&units=metric%20%%20(lat,%20lon,%20api_key)
-
 # Header
 import requests
 import json
