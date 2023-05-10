@@ -3,20 +3,24 @@ Iris is my personal assistant that helps automate daily tasks such as lighting c
 
 # Revisions
 
- - 1.0
- First time introduced to Python.  A simple one-file program
+ ### 1.0
+ - A simple one-file program
 
- - 1.1
-A bit more advanced program with a library of responses to assist the keyword-based conversation. It has multiple levels of function calls.
+ ### 1.1
+ - A bit more advanced programming with a library of responses to assist the keyword-based conversation.
+ - Multiple levels of function calls.
 
- - 2.0 (in progress)
-Implementing OOP for a flexible addition of assistant abilities in the future, with a contextual-based conversation trained using TensorFlow. Its abilities are carefully chosen from my experience over the past two years and are customized to maximize its productivity. 
+ ### 2.0 (in progress)
+ - Implementing OOP for a flexible addition of assistant abilities in the future
+ - Contextual-based conversation 
+ - Its abilities are carefully chosen from my experience over the past two years and are customized to maximize its productivity. 
 
 # v2.0 
 
 ## STT & TTS
-Vosk (local)
-Google (Cloud)
+STT -> Vosk (local)
+
+TTS -> Google 
 
 ## Abilities
 - Greeting
