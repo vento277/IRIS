@@ -1,42 +1,52 @@
-# Introduction
-Iris is my personal assistant that helps automate daily tasks such as lighting controls and playing music. The code is meant to be used on my local computer, but it is simple enough such that with small changes, one can make good use of it. 
+# IRIS
+Iris is a virtual assistant software built to make my life more productive.
+
+## Problem
+There are many virtual assistants in the market such as Siri, Alexa, and Google Assistant. However, for most users, the assistants usually carry out a limited number of tasks that don't require a high degree of performance. These tasks include:
+- Light Switching
+- Checking Weather
+- Searching
+- Timers
+- Scheduling an Event
+- etc...
+
+In my view, the superior performance from a cloud-based TTS & STT doesn't outweigh the privacy concerns for now. The tipping point will be when the assistants become capable of conversing with the user, therefore, providing the actual assistant experience, rather than simply executing tasks via voice commands.
+
+Also, a platform-based assistant often forces one to use local applications. For example, to use Google Calendar in Siri, one must sync it with the iCalendar.
+
+Until the technology for LLMs advances such that all assistants act as agents of tasks instead of command followers, the difference between a keyword-based assistant and a more advanced one will remain marginal.
+
+## Solution
+A local, customizable, keyword-based assistant.
+
+# Design
+## Capabilities
+- Weather
+- Lighting Control
+- Timer
+- Search
+- Music
+
+## Keywords
+### Wakeword
+### Sleepword
+### Task Initiators 
+### Response library
+Build a library of responses from my own experience, LLMs, and other tools. Use LLMs to produce a lot of responses to the call you make.
+
+# Development
+## TTS
+Google
+
+## STT
+Vosk
 
 # Revisions
+## 1.0
+- A simple one-file program.
 
- ### 1.0
- - A simple one-file program
+## 1.1
+- A bit more advanced programming with a library of responses to assist in the keyword-based conversation.
+- Multiple levels of function calls.
 
- ### 1.1
- - A bit more advanced programming with a library of responses to assist the keyword-based conversation.
- - Multiple levels of function calls.
-
- ### 2.0 (in progress)
- - Implementing OOP for a flexible addition of assistant abilities in the future
- - Contextual-based conversation 
- - Its abilities are carefully chosen from my experience over the past two years and are customized to maximize its productivity. 
-
-# v2.0 
-
-## STT & TTS
-STT -> Vosk (local)
-
-TTS -> Google 
-
-## Abilities
-- Greeting
-Recognizes the time and greets appropriately. It can also get the weather information and offer you advise as to what to wear.
-- Weather
-OpenWeatherMap API - JSON
-- Lighting Control
-Take control of the locally available Lifx lightbulb and adjust its brightness and colour according to the time, weather, and user input.
-- Timer
-Make use of the Pomodoro Technique to set up a customized (35~45min Work/Study & a 5~10 min break ) work/study session for desired amount of hours.
-- Search
-Allow search function for various websites such as Google, Wikipedia, Youtube, Research Gate...etc
-- Budget
-Perform personal budgeting by taking daily spending from the user, and summing up the data weekly.
-- Music
-Play the right music at the right time.
-
-## Block Diagram
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vTSLKY5qjm8dchPXGebag4KHNb58EpLL8VrGKnNNZ5f4CTxq4HempfUZDybn4H1dhvQjZlMiRYSR0T4/pub?w=1874&amp;h=880"> 
+## 2.0 (in progress)
