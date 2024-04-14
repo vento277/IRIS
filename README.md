@@ -14,7 +14,7 @@ In my view, the superior performance from a cloud-based TTS & STT doesn't outwei
 
 Also, a platform-based assistant often forces one to use local applications. For example, to use Google Calendar in Siri, one must sync it with the iCalendar.
 
-Until the technology for LLMs advances such that all assistants act as agents of tasks instead of command followers, the difference between a keyword-based assistant and a more advanced one will remain marginal.
+Until the technology for LLMs advances such that all assistants act both as a agent for tasks and human connections, the difference between a keyword-based assistant and a more advanced one will remain marginal.
 
 ## Solution
 A local, customizable, keyword-based assistant.
